@@ -3,34 +3,42 @@
 	<head>
 		<title>catsanddo</title>
 		<meta charset="utf-8">
-		<style>
-			body {
-				background-color: rgb(35, 35, 51);
-				color: white;
-			}
-			
-			p {
-				color: rgb(190, 190, 190);
-			}
-			
-			a {
-				color: rgb(227, 150, 27);
-			}
-		</style>
+        <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            height: 100%;
+            overflow: hidden;
+        }
+
+        #title {
+            font-size: 62;
+            font-family: sans-serif;
+            text-align: center;
+            margin: auto;
+            width: 25%;
+            padding: 15% 0;
+            border: 3px;
+        }
+    
+        #subtitle {
+            font-size: 25;
+            font-family: sans-serif;
+        }
+        #links {
+            text-align: center;
+            padding: 70px 0;
+        }
+    </style>
 	</head>
 	<body>
-		<h1>Project Info</h1>
-		<p><a href="#current">Current Projects</a> | <a href="#future">Future Projects</a></p>
-		
-		<h2 id="current">Current Projects</h2>
-		<h3>JackBot</h3>
-		<p>
-			<strong>JackBot</strong> is a top-down shooter following a robot tasked with infiltrating the lair of a rogue AI and taking it down.
-			Explore and solve puzzles as you fight your way to the core of the AI. And remember, strength comes to those who find secrets.
-		</p>
-		
-		<h2 id="future">Future Projects</h2>
-		<h3>Deep Down</h3>
-		<p>More details for <strong>Deep Down</strong> to come.</p>
+        <div id="title">
+            <h1>Catsanddo</h1>
+            <div id="subtitle">
+                <h4>I make games.</h4>
+            </div>
+        </div>
+        <div id="links">
+            <h5><a href="https://github.com/catsanddo">Github</a> | <a href="https://catsanddo.itch.io/">itch.io</a></h5>
+        </div>
 	</body>
 </html>
