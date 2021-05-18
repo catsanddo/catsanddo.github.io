@@ -1,4 +1,6 @@
 body {
+    height: 100%;
+    overflow: hidden;
 	background-color: rgb(35, 35, 51);
 	color: white;
 }
@@ -9,4 +11,24 @@ p {
 
 a {
 	color: rgb(227, 150, 27);
+}
+
+#title {
+    font-size: 62;
+    font-family: sans-serif;
+    text-align: center;
+    margin: auto;
+    width: 25%;
+    padding: 15% 0;
+    border: 3px;
+}
+
+#subtitle {
+    font-size: 25;
+    font-family: sans-serif;
+}
+
+#links {
+    text-align: center;
+    padding: 70px 0;
 }
