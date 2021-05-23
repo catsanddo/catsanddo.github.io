@@ -13,6 +13,10 @@ a {
 	color: rgb(227, 150, 27);
 }
 
+#topbar {
+    padding-left: 20px;
+}
+
 #title {
     font-size: 62;
     font-family: sans-serif;
@@ -26,9 +30,10 @@ a {
 #subtitle {
     font-size: 25;
     font-family: sans-serif;
+    text-align: center;
 }
 
 #links {
     text-align: center;
-    padding: 70px 0;
+    padding: 20px 0;
 }
